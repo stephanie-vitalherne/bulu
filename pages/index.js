@@ -1,5 +1,9 @@
-import { Layout } from "../components";
+import { Layout, Nav } from "../components";
 
 export default function Home() {
-  return <Layout title="Bulu"></Layout>;
+  return (
+    <Layout title="Bulu">
+      <Nav />
+    </Layout>
+  );
 }
